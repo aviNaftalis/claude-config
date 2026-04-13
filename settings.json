@@ -1,0 +1,25 @@
+{
+  "enabledPlugins": {
+    "claudebin@claudebin-marketplace": true,
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "claudebin-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "wunderlabs-dev/claudebin"
+      }
+    },
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"$HOME/.claude/statusline.sh\""
+  }
+}
